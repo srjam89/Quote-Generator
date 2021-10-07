@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    background-image: url('./Resources/s-migaj-Yui5vfKHuzs-unsplash.jpg');
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Libre Baskerville';
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px white;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn {
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: black;
+    color: white;
+    border: 1px solid white; 
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+    /*font-weight: bolder; */
+    text-shadow: 3px 3px 3px white;
+    text-align: center;
+}
